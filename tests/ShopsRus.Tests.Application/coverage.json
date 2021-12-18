@@ -1,0 +1,891 @@
+{
+  "ShopsRus.Domain.dll": {
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Products\\Category.cs": {
+      "ShopsRus.Domain.Products.Category": {
+        "System.String ShopsRus.Domain.Products.Category::get_Name()": {
+          "Lines": {
+            "7": 24
+          },
+          "Branches": []
+        },
+        "System.String ShopsRus.Domain.Products.Category::get_Description()": {
+          "Lines": {
+            "8": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Products\\Product.cs": {
+      "ShopsRus.Domain.Products.Product": {
+        "System.String ShopsRus.Domain.Products.Product::get_Name()": {
+          "Lines": {
+            "7": 56
+          },
+          "Branches": []
+        },
+        "System.String ShopsRus.Domain.Products.Product::get_Description()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ShopsRus.Domain.Products.Product::get_CategoryId()": {
+          "Lines": {
+            "9": 80
+          },
+          "Branches": []
+        },
+        "ShopsRus.Domain.Products.Category ShopsRus.Domain.Products.Product::get_Category()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Products.Product::get_Price()": {
+          "Lines": {
+            "11": 82
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Invoices\\Invoice.cs": {
+      "ShopsRus.Domain.Invoices.Invoice": {
+        "System.Int32 ShopsRus.Domain.Invoices.Invoice::get_CustomerId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime ShopsRus.Domain.Invoices.Invoice::get_CreationTime()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Invoices.Invoice::get_Total()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Invoices.Invoice::get_Discount()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Invoices.Invoice::get_TotalAfterDiscount()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<ShopsRus.Domain.Invoices.InvoiceItem> ShopsRus.Domain.Invoices.Invoice::get_Items()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Invoices\\InvoiceItem.cs": {
+      "ShopsRus.Domain.Invoices.InvoiceItem": {
+        "System.Int32 ShopsRus.Domain.Invoices.InvoiceItem::get_InvoiceId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 ShopsRus.Domain.Invoices.InvoiceItem::get_ItemId()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Invoices.InvoiceItem::get_UnitPrice()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Invoices.InvoiceItem::get_Quantity()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Invoices.InvoiceItem::get_Total()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "ShopsRus.Domain.Products.Product ShopsRus.Domain.Invoices.InvoiceItem::get_Product()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Discounts\\Discount.cs": {
+      "ShopsRus.Domain.Discounts.Discount": {
+        "System.String ShopsRus.Domain.Discounts.Discount::get_Name()": {
+          "Lines": {
+            "8": 32
+          },
+          "Branches": []
+        },
+        "System.Decimal ShopsRus.Domain.Discounts.Discount::get_Amount()": {
+          "Lines": {
+            "9": 46
+          },
+          "Branches": []
+        },
+        "System.Boolean ShopsRus.Domain.Discounts.Discount::get_UsePercentage()": {
+          "Lines": {
+            "10": 137
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Decimal> ShopsRus.Domain.Discounts.Discount::get_SplitAmount()": {
+          "Lines": {
+            "11": 24
+          },
+          "Branches": []
+        },
+        "ShopsRus.Domain.Discounts.DiscountType ShopsRus.Domain.Discounts.Discount::get_Type()": {
+          "Lines": {
+            "12": 58
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> ShopsRus.Domain.Discounts.Discount::get_CustomerCreationDays()": {
+          "Lines": {
+            "13": 20
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<ShopsRus.Domain.Discounts.DiscountCategory> ShopsRus.Domain.Discounts.Discount::get_Categories()": {
+          "Lines": {
+            "15": 64
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<ShopsRus.Domain.Discounts.DiscountCustomerRole> ShopsRus.Domain.Discounts.Discount::get_CustomerRoles()": {
+          "Lines": {
+            "16": 72
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Discounts\\DiscountCategory.cs": {
+      "ShopsRus.Domain.Discounts.DiscountCategory": {
+        "System.Int32 ShopsRus.Domain.Discounts.DiscountCategory::get_DiscountId()": {
+          "Lines": {
+            "8": 24
+          },
+          "Branches": []
+        },
+        "System.Int32 ShopsRus.Domain.Discounts.DiscountCategory::get_CategoryId()": {
+          "Lines": {
+            "9": 48
+          },
+          "Branches": []
+        },
+        "System.Boolean ShopsRus.Domain.Discounts.DiscountCategory::get_IsCategoryIncluded()": {
+          "Lines": {
+            "10": 72
+          },
+          "Branches": []
+        },
+        "ShopsRus.Domain.Products.Category ShopsRus.Domain.Discounts.DiscountCategory::get_Category()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Discounts\\DiscountCustomerRole.cs": {
+      "ShopsRus.Domain.Discounts.DiscountCustomerRole": {
+        "System.Int32 ShopsRus.Domain.Discounts.DiscountCustomerRole::get_DiscountId()": {
+          "Lines": {
+            "8": 16
+          },
+          "Branches": []
+        },
+        "System.Int32 ShopsRus.Domain.Discounts.DiscountCustomerRole::get_CustomerRoleId()": {
+          "Lines": {
+            "9": 44
+          },
+          "Branches": []
+        },
+        "System.Boolean ShopsRus.Domain.Discounts.DiscountCustomerRole::get_IsCustomerRoleIncluded()": {
+          "Lines": {
+            "10": 34
+          },
+          "Branches": []
+        },
+        "ShopsRus.Domain.Customers.CustomerRole ShopsRus.Domain.Discounts.DiscountCustomerRole::get_CustomerRole()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Customers\\Customer.cs": {
+      "ShopsRus.Domain.Customers.Customer": {
+        "System.String ShopsRus.Domain.Customers.Customer::get_UserName()": {
+          "Lines": {
+            "8": 48
+          },
+          "Branches": []
+        },
+        "System.String ShopsRus.Domain.Customers.Customer::get_Password()": {
+          "Lines": {
+            "9": 48
+          },
+          "Branches": []
+        },
+        "System.String ShopsRus.Domain.Customers.Customer::get_FullName()": {
+          "Lines": {
+            "10": 48
+          },
+          "Branches": []
+        },
+        "System.DateTime ShopsRus.Domain.Customers.Customer::get_CreationTime()": {
+          "Lines": {
+            "11": 54
+          },
+          "Branches": []
+        },
+        "System.Int32 ShopsRus.Domain.Customers.Customer::get_CustomerRoleId()": {
+          "Lines": {
+            "12": 76
+          },
+          "Branches": []
+        },
+        "ShopsRus.Domain.Customers.CustomerRole ShopsRus.Domain.Customers.Customer::get_CustomerRole()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Customers\\CustomerRole.cs": {
+      "ShopsRus.Domain.Customers.CustomerRole": {
+        "System.String ShopsRus.Domain.Customers.CustomerRole::get_Name()": {
+          "Lines": {
+            "7": 24
+          },
+          "Branches": []
+        },
+        "System.String ShopsRus.Domain.Customers.CustomerRole::get_DisplayName()": {
+          "Lines": {
+            "8": 24
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.Domain\\Core\\Entity.cs": {
+      "ShopsRus.Domain.Core.Entity`1": {
+        "TKey ShopsRus.Domain.Core.Entity`1::get_Id()": {
+          "Lines": {
+            "10": 250
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ShopsRus.EntityFramework.dll": {
+    "C:\\repos\\shopsrus\\src\\ShopsRus.EntityFramework\\ShopsRusDbContext.cs": {
+      "ShopsRus.EntityFramework.ShopsRusDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Customers.Customer> ShopsRus.EntityFramework.ShopsRusDbContext::get_Customers()": {
+          "Lines": {
+            "13": 56
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Customers.CustomerRole> ShopsRus.EntityFramework.ShopsRusDbContext::get_CustomerRoles()": {
+          "Lines": {
+            "14": 32
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Discounts.Discount> ShopsRus.EntityFramework.ShopsRusDbContext::get_Discounts()": {
+          "Lines": {
+            "15": 40
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Discounts.DiscountCategory> ShopsRus.EntityFramework.ShopsRusDbContext::get_DiscountCategories()": {
+          "Lines": {
+            "16": 32
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Discounts.DiscountCustomerRole> ShopsRus.EntityFramework.ShopsRusDbContext::get_DiscountCustomerRoles()": {
+          "Lines": {
+            "17": 24
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Invoices.Invoice> ShopsRus.EntityFramework.ShopsRusDbContext::get_Invoices()": {
+          "Lines": {
+            "18": 8
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Invoices.InvoiceItem> ShopsRus.EntityFramework.ShopsRusDbContext::get_InvoiceItems()": {
+          "Lines": {
+            "19": 8
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Products.Category> ShopsRus.EntityFramework.ShopsRusDbContext::get_Categories()": {
+          "Lines": {
+            "20": 32
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<ShopsRus.Domain.Products.Product> ShopsRus.EntityFramework.ShopsRusDbContext::get_Products()": {
+          "Lines": {
+            "21": 64
+          },
+          "Branches": []
+        },
+        "System.Void ShopsRus.EntityFramework.ShopsRusDbContext::Seed()": {
+          "Lines": {
+            "29": 8,
+            "30": 8,
+            "31": 8,
+            "33": 8,
+            "34": 8,
+            "35": 8,
+            "36": 8,
+            "37": 8
+          },
+          "Branches": []
+        },
+        "System.Void ShopsRus.EntityFramework.ShopsRusDbContext::SeedCustomers()": {
+          "Lines": {
+            "40": 8,
+            "42": 8,
+            "43": 8,
+            "44": 8,
+            "47": 8,
+            "48": 8,
+            "49": 8,
+            "50": 8,
+            "51": 8,
+            "52": 8,
+            "53": 8,
+            "54": 8,
+            "55": 8,
+            "57": 8,
+            "58": 8,
+            "59": 8,
+            "60": 8,
+            "61": 8,
+            "62": 8,
+            "63": 8,
+            "64": 8,
+            "65": 8,
+            "67": 8,
+            "68": 8,
+            "69": 8,
+            "70": 8,
+            "71": 8,
+            "72": 8,
+            "73": 8,
+            "74": 8,
+            "75": 8,
+            "77": 8,
+            "78": 8,
+            "79": 8,
+            "80": 8,
+            "81": 8,
+            "82": 8,
+            "83": 8,
+            "84": 8,
+            "85": 8,
+            "87": 8,
+            "88": 8,
+            "89": 8,
+            "90": 8,
+            "91": 8,
+            "92": 8,
+            "93": 8,
+            "94": 8,
+            "95": 8,
+            "97": 8,
+            "98": 8,
+            "99": 8,
+            "100": 8,
+            "101": 8,
+            "102": 8,
+            "103": 8,
+            "104": 8,
+            "105": 8,
+            "106": 8
+          },
+          "Branches": []
+        },
+        "System.Void ShopsRus.EntityFramework.ShopsRusDbContext::SeedProducts()": {
+          "Lines": {
+            "109": 8,
+            "111": 8,
+            "112": 8,
+            "113": 8,
+            "117": 8,
+            "118": 8,
+            "119": 8,
+            "121": 8,
+            "122": 8,
+            "124": 8,
+            "125": 8,
+            "126": 8
+          },
+          "Branches": []
+        },
+        "System.Void ShopsRus.EntityFramework.ShopsRusDbContext::SeedDiscount()": {
+          "Lines": {
+            "129": 8,
+            "131": 8,
+            "132": 8,
+            "133": 8,
+            "134": 8,
+            "135": 8,
+            "136": 8,
+            "137": 8,
+            "138": 8,
+            "139": 8,
+            "141": 8,
+            "144": 8,
+            "145": 8,
+            "146": 8,
+            "147": 8,
+            "148": 8,
+            "149": 8,
+            "150": 8,
+            "151": 8,
+            "152": 8,
+            "154": 8,
+            "157": 8,
+            "158": 8,
+            "159": 8,
+            "160": 8,
+            "161": 8,
+            "162": 8,
+            "163": 8,
+            "164": 8,
+            "165": 8,
+            "167": 8,
+            "170": 8,
+            "171": 8,
+            "172": 8,
+            "173": 8,
+            "174": 8,
+            "175": 8,
+            "176": 8,
+            "177": 8,
+            "178": 8,
+            "180": 8
+          },
+          "Branches": []
+        },
+        "System.Void ShopsRus.EntityFramework.ShopsRusDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
+          "Lines": {
+            "23": 8,
+            "24": 8,
+            "25": 8,
+            "26": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\src\\ShopsRus.EntityFramework\\Repositories\\EntityFrameworkInMemoryRepository.cs": {
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<TEntity> ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2::get_DbSet()": {
+          "Lines": {
+            "20": 24
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 9,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 7,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 24
+            },
+            {
+              "Line": 20,
+              "Offset": 19,
+              "EndOffset": 21,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 19,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 24
+            }
+          ]
+        },
+        "System.Linq.IQueryable`1<TEntity> ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2::GetQueryable()": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2::.ctor(ShopsRus.EntityFramework.ShopsRusDbContext)": {
+          "Lines": {
+            "15": 24,
+            "16": 24,
+            "17": 24,
+            "18": 24
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<InsertAsync>d__4": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<InsertAsync>d__4::MoveNext()": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 51,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<UpdateAsync>d__5": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<UpdateAsync>d__5::MoveNext()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<DeleteAsync>d__6": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<DeleteAsync>d__6::MoveNext()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<GetAsync>d__7": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<GetAsync>d__7::MoveNext()": {
+          "Lines": {
+            "48": 16,
+            "49": 16,
+            "50": 16
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<GetList>d__8": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`2/<GetList>d__8::MoveNext()": {
+          "Lines": {
+            "53": 8,
+            "54": 8,
+            "55": 8
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`1": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`1::.ctor(ShopsRus.EntityFramework.ShopsRusDbContext)": {
+          "Lines": {
+            "67": 24,
+            "68": 24,
+            "69": 24
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`1/<InsertAsync>d__1": {
+        "System.Void ShopsRus.EntityFramework.Repositories.EntityFrameworkInMemoryRepository`1/<InsertAsync>d__1::MoveNext()": {
+          "Lines": {
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 61,
+              "EndOffset": 66,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 203,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 73,
+              "Offset": 61,
+              "EndOffset": 460,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "ShopsRus.Tests.Application.dll": {
+    "C:\\Users\\Ziyad\\.nuget\\packages\\microsoft.net.test.sdk\\16.11.0\\build\\netcoreapp2.1\\Microsoft.NET.Test.Sdk.Program.cs": {
+      "AutoGeneratedProgram": {
+        "System.Void AutoGeneratedProgram::Main(System.String[])": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\repos\\shopsrus\\tests\\ShopsRus.Tests.Application\\DiscountCalculatorServiceTests.cs": {
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests::Setup()": {
+          "Lines": {
+            "25": 8,
+            "26": 8,
+            "27": 16,
+            "28": 8,
+            "29": 8,
+            "30": 8,
+            "31": 8,
+            "32": 8,
+            "33": 8
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Employee_30_Percent>d__3": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Employee_30_Percent>d__3::MoveNext()": {
+          "Lines": {
+            "37": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "48": 1,
+            "50": 1,
+            "51": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Employee_30_Percent_And_5_For_Each_100>d__4": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Employee_30_Percent_And_5_For_Each_100>d__4::MoveNext()": {
+          "Lines": {
+            "55": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "66": 1,
+            "68": 1,
+            "69": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Affiliate_10_Percent>d__5": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Affiliate_10_Percent>d__5::MoveNext()": {
+          "Lines": {
+            "74": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "85": 1,
+            "87": 1,
+            "88": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Customer_Over_2_Years_5_Percent>d__6": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_For_Customer_Over_2_Years_5_Percent>d__6::MoveNext()": {
+          "Lines": {
+            "92": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "100": 1,
+            "103": 1,
+            "105": 1,
+            "106": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_5_For_Each_100>d__7": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Discount_5_For_Each_100>d__7::MoveNext()": {
+          "Lines": {
+            "110": 1,
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "115": 1,
+            "116": 1,
+            "117": 1,
+            "118": 1,
+            "121": 1,
+            "123": 1,
+            "124": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Execlude_Grocery_From_Percentage_1>d__8": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Execlude_Grocery_From_Percentage_1>d__8::MoveNext()": {
+          "Lines": {
+            "128": 1,
+            "130": 1,
+            "131": 1,
+            "132": 1,
+            "133": 1,
+            "134": 1,
+            "135": 1,
+            "136": 1,
+            "139": 1,
+            "141": 1,
+            "142": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Execlude_Grocery_From_Percentage_2>d__9": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Execlude_Grocery_From_Percentage_2>d__9::MoveNext()": {
+          "Lines": {
+            "146": 1,
+            "148": 1,
+            "149": 1,
+            "150": 1,
+            "151": 1,
+            "152": 1,
+            "153": 1,
+            "154": 1,
+            "157": 1,
+            "159": 1,
+            "160": 1
+          },
+          "Branches": []
+        }
+      },
+      "ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Ensure_Only_One_Percentage_Discount_Applied>d__10": {
+        "System.Void ShopsRus.Tests.Application.DiscountCalculatorServiceTests/<Ensure_Only_One_Percentage_Discount_Applied>d__10::MoveNext()": {
+          "Lines": {
+            "165": 1,
+            "167": 1,
+            "168": 1,
+            "169": 1,
+            "170": 1,
+            "171": 1,
+            "172": 1,
+            "173": 1,
+            "176": 1,
+            "178": 1,
+            "179": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
